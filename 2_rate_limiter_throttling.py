@@ -22,8 +22,8 @@ def test_throttling_limiter():
         # Випадкова затримка між повідомленнями
         time.sleep(random.uniform(0.1, 1.0))
 
-    print("\nОчікуємо 4 секунди...")
-    time.sleep(4)
+    print("\nОчікуємо 10 секунд...")
+    time.sleep(10)
 
     print("\n=== Нова серія повідомлень після очікування ===")
     for message_id in range(11, 21):
